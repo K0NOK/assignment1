@@ -1,0 +1,266 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* Navigation menu */
+header ul{
+    display: flex;
+    margin-right: 10%;
+    margin-left: 70%;
+    justify-content: space-around;
+
+}
+header ul li{
+    list-style: none;
+    padding: 30px;
+}
+header ul li a{
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: bold;
+    text-decoration: none;
+    color: #3C3C3C;
+}
+header ul li:hover a{
+    font-size: large;
+    color: tomato;
+    text-decoration: underline;
+}
+/* Iron-Man Section */
+.iron-man{
+    display: flex;
+    justify-content: space-between;
+}
+.left-side{
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.left-side h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+.Name{
+    color: #FF8367;
+}
+.left-side p{
+    font-family: Roboto;
+    font-size: 30px;
+    padding: 15px 0px 30px;
+    color: #3E3E3E;
+}
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 25px 50px;
+    background-image: linear-gradient(45deg, tomato, rgb(214, 108, 20));
+}
+button a{
+    font-family: Roboto;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+button a:hover{
+    transition: 0.5s;
+    color:black;
+}
+.iron-man-img{
+    border-radius: 30%;
+    width: 30%;
+    margin: 5% 15% 0 0;
+}
+/* Deadpool Section */
+.deadpool{
+    display: flex;
+    justify-content: space-between;
+}
+.deadpool-img{
+    border-radius: 30%;
+    width: 32%;
+    margin: 5% 15% 0 10%;
+}
+.right-side{
+    width: 40%;
+    margin-right: 3%;
+    margin-top: 10%;
+}
+.right-side h2{
+    font-family: 'Bree Serif', serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.right-side p{
+    font-family:roboto;
+    font-size: 30px;
+    padding: 15px 0px 30px;
+    color: #3E3E3E;
+}
+/* Project lists */
+.projects{
+    height: 100vh;
+}
+.projects h1{
+    padding:150px 0 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.lastest{
+    color: #FF8367;
+}
+.project-list{
+    display: flex;
+    justify-content: center;
+}
+.gym-website{
+    border-left: 5px solid tomato ;
+    width: 25%;
+    margin: 0  20px;
+    box-shadow: 20px 10px 30px rgb(92, 92, 92);
+    border-radius: 18px;
+
+}
+.gym-website img{
+    width: 95%;
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ h3{
+    font-size: 30px;
+    color: #363958;
+    padding: 10px 5px;
+}
+p{
+    font-family:roboto;
+    font-size: 20px;
+    padding: 10px 5px;
+}
+.agency-website{
+    border-left: 5px solid tomato ;
+    width: 25%;
+    margin: 0  20px;
+    box-shadow: 20px 10px 30px rgb(92, 92, 92);
+    border-radius: 18px;
+
+}
+.agency-website img{
+    width: 95%;
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.music-website{
+    border-left: 5px solid tomato ;
+    width: 25%;
+    margin: 0  20px;
+    box-shadow: 20px 10px 30px rgb(92, 92, 92);
+    border-radius: 18px;
+
+}
+.music-website img{
+    width: 95%;
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.work_inquiry{
+    margin: 0 20%;
+}
+
+.chat{
+    background-image: url(./shapes/blue_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+.chat button {
+    padding: 10px 30px;
+    margin: 40px;
+}
+.chat button a{
+    font-size: large;
+    text-transform: capitalize;
+}
+.chat h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-left:30px ;
+    margin: 40px;
+}
+/* Registration Area */
+.registration h1{
+text-align: center;
+font-size: 50px;
+padding: 5%;
+text-transform: uppercase;
+font-family: roboto;
+}
+.registration form{
+display: flex;
+flex-direction: column;
+align-items:center;
+}
+.contact-us{
+margin: 10px 0px;
+padding: 15px 40px;
+border: 2px solid tomato;
+width:20%; 
+transition: 0.5s;
+
+}
+textarea{
+transition: 0.5s;
+padding: 15px 40px;
+resize: none;
+}
+.registration button{
+padding: 15px 40px;
+background-image: linear-gradient(45deg, tomato, rgb(214, 108, 20));
+color: white;
+border: none;
+border-radius: 15px;
+margin-left: 15%;
+font-weight: bold;
+}
+.registration button:hover{
+    transition: 0.5s;
+    color: black;
+}
+/* Footer Area */
+footer h5{
+    font-family:roboto;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+footer h2{
+    font-family:roboto;
+    text-transform: lowercase;
+    font-size: 30px;
+    padding: 10px 0;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    border-radius: 50%;
+    width: 4%;
+    padding: 10px 15px;
+}
